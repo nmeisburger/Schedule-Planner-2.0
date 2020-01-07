@@ -1,0 +1,23 @@
+.landing-link div {
+    width: 250px;
+    font-size: 2.5em;
+    color: #F2F9FF;
+    font-weight: 500;
+    margin: 25px auto;
+    padding: 1px;
+    transition: 0.2s ease-in-out;
+}
+
+.landing-link div:hover {
+    transform: scale(1.05);
+}
+
+.landing-link div p {
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+}
+
+.landing-link {
+    text-decoration: none;
+}

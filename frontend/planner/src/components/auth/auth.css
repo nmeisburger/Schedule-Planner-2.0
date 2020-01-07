@@ -1,0 +1,42 @@
+.auth-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    border: 2px solid #33677A;
+    padding: 10px;
+}
+
+.auth-input {
+    width: 260px;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.8em;
+    border: solid #33677A;
+    border-width: 0 0 2px 0;
+    color: #F2F9FF;
+}
+
+.auth-input::placeholder {
+    color: #33677A;
+}
+
+.auth-input {
+    outline: none;
+}
+
+.auth-submit {
+    background-color: #CC554F;
+    width: 260px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1.8em;
+    color: #F2F9FF;
+    transition: 0.2s ease-in-out;
+}
+
+.auth-submit:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}

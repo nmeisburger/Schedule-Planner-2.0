@@ -1,0 +1,61 @@
+.main-title {
+    color: #CC554F;
+    font-size: 3.5em;
+    text-align: left;
+    /* width: 70px; */
+    /* border: #CC554F solid;
+    border-width: 0 0 2px 0; */
+}
+
+.workspace th {
+    color: #33677A;
+    font-size: 1.1em;
+    padding: 10px;
+    border: none;
+}
+
+.workspace td {
+    font-size: 0.8em;
+    color: #F2F9FF;
+    padding: 10px;
+}
+
+.workspace table {
+    border: none;
+    table-layout: fixed;
+}
+
+.course-remove-btn {
+    background: none;
+    border: 1px solid #F2F9FF;
+    font-size: 2em;
+    color: #F2F9FF;
+    transition: 0.2s ease-in-out;
+    padding: 0 8px;
+}
+
+.course-remove-btn:hover {
+    background: #F2F9FF;
+    color: #353F54;
+}
+
+.schedule {
+    padding-bottom: 100px;
+}
+
+.day-title {
+    width: 100px;
+    color: #F2F9FF;
+    text-align: center;
+    padding: 0;
+    margin: 0 1px;
+}
+
+.schedule-time {
+    margin: 0 0 50px 0;
+    color: #CC554F;
+    width: 40px;
+    padding: 0;
+    border: solid #CC554F;
+    border-width: 1px 0 0 0;
+}
