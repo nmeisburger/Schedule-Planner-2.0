@@ -6,7 +6,6 @@ import Search from '../search/search';
 import { Box, Flex } from 'rebass';
 import './planner.css';
 
-import Courses from '../../test';
 
 function Planner(props) {
 	const [courses, setCourses] = useState([]);
